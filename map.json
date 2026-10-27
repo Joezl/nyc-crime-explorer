@@ -1,0 +1,89 @@
+{
+  "operationalLayers": [
+    {
+      "id": "1a17d28d972-layer-3",
+      "title": "NYC Crime Locations",
+      "url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/NYC_Crime_Locations_PROD_view/FeatureServer/0",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "popupInfo": {
+        "title": "NYC Crime Location",
+        "fieldInfos": [
+          {
+            "fieldName": "Borough",
+            "label": "Borough",
+            "visible": true
+          },
+          {
+            "fieldName": "TYPE",
+            "label": "TYPE",
+            "visible": true
+          }
+        ],
+        "content": [
+          {
+            "type": "fields",
+            "fieldInfos": [
+              {
+                "fieldName": "Borough",
+                "label": "Borough",
+                "visible": true
+              },
+              {
+                "fieldName": "TYPE",
+                "label": "TYPE",
+                "visible": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "world-hillshade-layer",
+        "showLegend": false,
+        "opacity": 1,
+        "title": "World Hillshade",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "visibility": true,
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "topo-vector-base-layer",
+        "opacity": 1,
+        "title": "World Topo",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json"
+      }
+    ],
+    "title": "Topographic"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -8296254.772547112,
+        "ymin": 4904028.246152248,
+        "xmax": -8174108.401347353,
+        "ymax": 5034276.942350239
+      },
+      "scale": 577790.554289,
+      "rotation": 0
+    }
+  }
+}

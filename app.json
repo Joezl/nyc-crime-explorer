@@ -1,0 +1,55 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-27T11:39:26.404Z",
+  "item": {
+    "title": "NYC Crime Explorer"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": false,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "default-home",
+        "type": "home",
+        "slot": "top-left",
+        "config": {}
+      },
+      {
+        "id": "default-scale-bar",
+        "type": "scaleBar",
+        "slot": "bottom-left",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": []
+  },
+  "nova": {
+    "basename": "29eff76f-31b0-4125-b403-966a96e679d6",
+    "presentationMode": "map",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://esridevbeijing.maps.arcgis.com",
+      "mapId": "output-0c414ba8-9513-4189-a9bf-886e6cfbcf78",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-27T11:39:26.403Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-10-27T11:39:26.403Z",
+  "title": "NYC Crime Explorer",
+  "authMode": "public",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-10-27T11-39-26-29eff76f-31b0-4125-b403-966a96e679d6/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  }
+}
